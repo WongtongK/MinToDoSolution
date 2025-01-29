@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffd6e0; /* Soft pastel pink */
+    color: white;
+    text-align: center;
+}
+
+/* Styling for round pink buttons */
+button, .btn-primary {
+    background-color: #ff4d94; /* Bright pink */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+    /* Cute hover effect */
+    button:hover {
+        background-color: #ff1e75;
+        transform: scale(1.1);
+    }
+
+/* Links and other buttons */
+a, .btn-link {
+    color: #ff4d94;
+}
+
+.btn-primary {
+    border: none;
+}
+
+    .btn-primary:focus, .btn-primary:active {
+        box-shadow: 0 0 10px #ff4d94;
+    }
+
+/* Cute input fields */
+input, .form-control {
+    background: white;
+    color: #ff4d94;
+    border: 2px solid #ff85b3;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+}
+
+    input:focus, .form-control:focus {
+        border-color: #ff1e75;
+        box-shadow: 0 0 10px #ff85b3;
+        outline: none;
+    }
+
+/* Completed tasks */
+.item-completed {
+    text-decoration: line-through;
+    color: #ff85b3;
+}
