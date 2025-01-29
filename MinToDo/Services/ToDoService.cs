@@ -7,7 +7,7 @@
 		{
 			_todoItems = new List<ToDoItem>
 			{
-				new ToDoItem("Det her er min ToDo liste")
+				new ToDoItem("Add your to do items")
 			};
 		}
 		public void Add(ToDoItem item)
