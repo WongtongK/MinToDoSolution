@@ -7,11 +7,7 @@
 		{
 			_todoItems = new List<ToDoItem>
 			{
-				new ToDoItem("Lav en hjemmeside som portfolio, til når du skal søge praktik og arbejde"),
-				new ToDoItem("Bliv færdig med Kaj Bromose LevSundt"),
-				new ToDoItem("Tag eksamen for SCRUM Master"),
-				new ToDoItem("Udarbejd en god CV og motiveret ansøgning, både på Dansk og Engelsk, gennem Prosa"),
-				new ToDoItem("Lav denne ToDo-liste app lyserød og mere pæn")
+				new ToDoItem("Det her er min ToDo liste")
 			};
 		}
 		public void Add(ToDoItem item)
